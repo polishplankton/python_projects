@@ -1,3 +1,13 @@
+# This script solves the Instant Insanity puzzle.
+# 
+# from https://en.wikipedia.org/wiki/Instant_Insanity:
+# "The puzzle consists of four cubes with faces colored
+#  with four colors (red, blue, green, and white).
+#  The objective of the puzzle is to stack these cubes
+#  in a column so that each side of the stack (front,
+#  back, left, and right) shows each of the four colors.
+#  The distribution of colors on each cube is unique."
+
 # wrap is a name I give to starting on one face of a cube and 'wrapping'
 # around to the next 3 faces. There are 24 possible 'wraps':
 wrap = ((0, 1, 5, 4), (0, 2, 5, 3), (0, 3, 5, 2), (0, 4, 5, 1), 
